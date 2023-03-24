@@ -17,6 +17,12 @@ struct Network{
     struct Neuron output_layer[NUM_OUTPUT];
 };
 
+int max(int x, int y) {
+    if (x > y) { return x; }
+    else if (x<y) { return y; }
+    else { return x; }
+}
+
 void initializeNetwork(struct Network*nw) {
     // initialize the input layer
     for (int i = 0; i < NUM_INPUTS; i++) {
@@ -114,6 +120,7 @@ int main(int argc, char *argv[]) {
     initializeNetwork(&nw);
 //    logNetworkStdin(&nw);
 //    logNetworkFile(&nw);
+
 
     return 0;
 }
