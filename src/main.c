@@ -17,7 +17,7 @@ struct Network{
     struct Neuron output_layer[NUM_OUTPUT];
 };
 
-int max(int x, int y) {
+double max(double x, double y) {
     if (x > y) { return x; }
     else if (x<y) { return y; }
     else { return x; }
@@ -38,7 +38,7 @@ void initializeNetwork(struct Network*nw) {
         nw->hidden_layer[i].weights = (double*) malloc(NUM_INPUTS*sizeof(double));
 
         for (int j = 0; j < NUM_INPUTS; j++) {
-            nw->hidden_layer[i].weights[j] = 0.0;
+            nw->hidden_layer[i].weights[j] = 1.0;
         }
     }
 
@@ -49,8 +49,39 @@ void initializeNetwork(struct Network*nw) {
         nw->output_layer[i].weights = (double*) malloc(NUM_HIDDEN*sizeof(double));
 
         for (int j = 0; j < NUM_HIDDEN; j++) {
-            nw->output_layer[i].weights[j] = 0.0;
+            nw->output_layer[i].weights[j] = 1.0;
         }
+    }
+}
+
+void computeNetwork(struct Network * nw, float * in, float * out) {
+    // give the input neurons their input values
+    for (int i = 0; i < NUM_INPUTS; i++) {
+        nw->inputs_layer[i].output = in[i];
+    }
+
+    // hidden layer bullshit
+    for (int i = 0; i < NUM_HIDDEN; i++) {
+        float weighted_sum = 0.0;
+        
+        // multiply all the weights with the input values -> add them to the sum
+        for (int j = 0; j < NUM_INPUTS; j++) {
+            weighted_sum += nw->hidden_layer[i].weights[j] * nw->inputs_layer[j].output;
+        }
+        // stick the sum into the activation function
+        nw->hidden_layer[i].output = max(0, weighted_sum + nw->hidden_layer[i].bias);
+    }
+
+    // output layer
+    for (int i = 0; i < NUM_OUTPUT; i++) {
+        float weighted_sum = 0.0;
+        
+        for (int j = 0; j < NUM_HIDDEN; j++) {
+            weighted_sum += nw->output_layer[i].weights[j] * nw->hidden_layer[j].output;
+        }
+
+        nw->output_layer[i].output = max(0, weighted_sum + nw->output_layer[i].bias);
+        out[i] = nw->output_layer[i].output;
     }
 }
 
@@ -115,9 +146,19 @@ void logNetworkStdin(struct Network*nw) {
 }
 
 int main(int argc, char *argv[]) {
-
     struct Network nw;
     initializeNetwork(&nw);
+
+//    float * inputs = malloc(NUM_INPUTS*sizeof(double));
+    float inputs[4] = {1,1,1,1};
+
+    float * outputs = malloc(NUM_OUTPUT*sizeof(double));
+
+    computeNetwork(&nw, inputs, outputs);
+
+    for (int i = 0; i < NUM_OUTPUT; i++) {
+        printf("%f\n", outputs[i]);
+    }
 //    logNetworkStdin(&nw);
 //    logNetworkFile(&nw);
 
