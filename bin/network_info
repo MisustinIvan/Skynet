@@ -2,66 +2,381 @@ Network Info:
 
 Input Layer:
   Neuron index: 0
-    bias: 0.000000
-    output: 0.000000
+    bias: 0.295159
+    output: 1.000000
   Neuron index: 1
-    bias: 0.000000
-    output: 0.000000
+    bias: -0.236483
+    output: 1.000000
   Neuron index: 2
-    bias: 0.000000
-    output: 0.000000
+    bias: 0.003802
+    output: 1.000000
   Neuron index: 3
-    bias: 0.000000
-    output: 0.000000
+    bias: 0.363378
+    output: 1.000000
+  Neuron index: 4
+    bias: -0.710140
+    output: 1.000000
+  Neuron index: 5
+    bias: -0.666760
+    output: 1.000000
+  Neuron index: 6
+    bias: -0.117529
+    output: 1.000000
+  Neuron index: 7
+    bias: 0.002380
+    output: 1.000000
+  Neuron index: 8
+    bias: 0.821351
+    output: 1.000000
+  Neuron index: 9
+    bias: -0.014921
+    output: 1.000000
+  Neuron index: 10
+    bias: 0.308577
+    output: 1.000000
+  Neuron index: 11
+    bias: 0.746739
+    output: 1.000000
+  Neuron index: 12
+    bias: 0.944478
+    output: 1.000000
+  Neuron index: 13
+    bias: 0.821390
+    output: 1.000000
+  Neuron index: 14
+    bias: -0.032012
+    output: 1.000000
 
 Hidden Layer:
   Neuron index: 0
-    bias: 0.000000
-    output: 0.000000
+    bias: -0.587493
+    output: 0.206809
     input weights: 
-      input[0]:0.000000
-      input[1]:0.000000
-      input[2]:0.000000
-      input[3]:0.000000
+      input[0]:-0.191430
+      input[1]:0.444944
+      input[2]:0.083595
+      input[3]:-0.210732
+      input[4]:0.632602
+      input[5]:0.706026
+      input[6]:-0.397724
+      input[7]:-0.042335
+      input[8]:-0.894226
+      input[9]:-0.537831
+      input[10]:-0.121544
+      input[11]:-0.456471
+      input[12]:-0.030864
+      input[13]:0.136164
+      input[14]:0.123052
   Neuron index: 1
-    bias: 0.000000
-    output: 0.000000
+    bias: -0.218280
+    output: 0.215562
     input weights: 
-      input[0]:0.000000
-      input[1]:0.000000
-      input[2]:0.000000
-      input[3]:0.000000
+      input[0]:-0.582894
+      input[1]:-0.873147
+      input[2]:-0.337476
+      input[3]:-0.293034
+      input[4]:-0.022481
+      input[5]:-0.937580
+      input[6]:0.709347
+      input[7]:-0.201131
+      input[8]:0.047500
+      input[9]:0.535349
+      input[10]:-0.454393
+      input[11]:0.509403
+      input[12]:0.874165
+      input[13]:0.513596
+      input[14]:-0.560665
   Neuron index: 2
-    bias: 0.000000
-    output: 0.000000
+    bias: -0.317266
+    output: 0.920180
     input weights: 
-      input[0]:0.000000
-      input[1]:0.000000
-      input[2]:0.000000
-      input[3]:0.000000
+      input[0]:0.475965
+      input[1]:0.522930
+      input[2]:0.472002
+      input[3]:0.108567
+      input[4]:0.228956
+      input[5]:-0.408297
+      input[6]:-0.416343
+      input[7]:0.852156
+      input[8]:0.053872
+      input[9]:0.462113
+      input[10]:-0.604316
+      input[11]:-0.459566
+      input[12]:0.115702
+      input[13]:0.518736
+      input[14]:0.839580
   Neuron index: 3
-    bias: 0.000000
-    output: 0.000000
+    bias: -0.949767
+    output: 0.123693
     input weights: 
-      input[0]:0.000000
-      input[1]:0.000000
-      input[2]:0.000000
-      input[3]:0.000000
+      input[0]:0.645589
+      input[1]:-0.497897
+      input[2]:-0.242801
+      input[3]:0.140533
+      input[4]:-0.435476
+      input[5]:-0.016029
+      input[6]:0.939402
+      input[7]:-0.870551
+      input[8]:0.036746
+      input[9]:0.002435
+      input[10]:-0.843723
+      input[11]:-0.089090
+      input[12]:0.033456
+      input[13]:-0.404388
+      input[14]:0.593644
+  Neuron index: 4
+    bias: -0.490580
+    output: 0.304146
+    input weights: 
+      input[0]:-0.364033
+      input[1]:0.583071
+      input[2]:-0.864588
+      input[3]:0.864923
+      input[4]:-0.825227
+      input[5]:-0.280931
+      input[6]:0.717078
+      input[7]:0.746072
+      input[8]:-0.301393
+      input[9]:-0.887239
+      input[10]:-0.196069
+      input[11]:0.814309
+      input[12]:-0.851078
+      input[13]:-0.356490
+      input[14]:0.864542
+  Neuron index: 5
+    bias: -0.688064
+    output: 0.859203
+    input weights: 
+      input[0]:0.663040
+      input[1]:0.139167
+      input[2]:0.452469
+      input[3]:-0.255011
+      input[4]:-0.359437
+      input[5]:0.909297
+      input[6]:0.391864
+      input[7]:0.677309
+      input[8]:0.429157
+      input[9]:0.548141
+      input[10]:-0.411782
+      input[11]:-0.537388
+      input[12]:-0.338822
+      input[13]:-0.300713
+      input[14]:0.489458
+  Neuron index: 6
+    bias: 0.297145
+    output: 0.352686
+    input weights: 
+      input[0]:-0.717643
+      input[1]:0.624871
+      input[2]:0.162068
+      input[3]:-0.542869
+      input[4]:-0.138635
+      input[5]:0.396571
+      input[6]:-0.279372
+      input[7]:0.559973
+      input[8]:-0.973242
+      input[9]:0.524559
+      input[10]:0.374281
+      input[11]:-0.824320
+      input[12]:-0.831932
+      input[13]:0.756249
+      input[14]:0.005043
+  Neuron index: 7
+    bias: -0.651467
+    output: 0.086243
+    input weights: 
+      input[0]:0.412841
+      input[1]:-0.025063
+      input[2]:0.093522
+      input[3]:-0.946597
+      input[4]:-0.115767
+      input[5]:0.002811
+      input[6]:-0.751862
+      input[7]:-0.686611
+      input[8]:0.068377
+      input[9]:-0.163644
+      input[10]:0.293427
+      input[11]:0.729555
+      input[12]:-0.946931
+      input[13]:-0.217115
+      input[14]:0.544126
+  Neuron index: 8
+    bias: -0.664574
+    output: 0.120306
+    input weights: 
+      input[0]:-0.592245
+      input[1]:0.223619
+      input[2]:0.309983
+      input[3]:0.269120
+      input[4]:-0.379811
+      input[5]:-0.969390
+      input[6]:-0.170908
+      input[7]:0.164373
+      input[8]:0.555169
+      input[9]:-0.279201
+      input[10]:0.857480
+      input[11]:-0.759337
+      input[12]:-0.005527
+      input[13]:-0.137478
+      input[14]:-0.410804
+  Neuron index: 9
+    bias: -0.592687
+    output: 0.060486
+    input weights: 
+      input[0]:0.837459
+      input[1]:-0.799856
+      input[2]:-0.021858
+      input[3]:0.239118
+      input[4]:0.202955
+      input[5]:0.226280
+      input[6]:-0.930068
+      input[7]:-0.211242
+      input[8]:-0.419938
+      input[9]:0.363360
+      input[10]:0.035738
+      input[11]:-0.366869
+      input[12]:-0.853756
+      input[13]:-0.420137
+      input[14]:-0.031443
 
 Output Layer:
   Neuron index: 0
-    bias: 0.000000
-    output: 0.000000
+    bias: -0.446001
+    output: 0.289876
     input weights: 
-      input[0]:0.000000
-      input[1]:0.000000
-      input[2]:0.000000
-      input[3]:0.000000
+      input[0]:0.803482
+      input[1]:-0.721460
+      input[2]:-0.659456
+      input[3]:-0.058903
+      input[4]:-0.690850
+      input[5]:0.687063
+      input[6]:-0.377105
+      input[7]:-0.618255
+      input[8]:-0.074713
+      input[9]:-0.519626
   Neuron index: 1
-    bias: 0.000000
-    output: 0.000000
+    bias: -0.377592
+    output: 0.815027
     input weights: 
-      input[0]:0.000000
-      input[1]:0.000000
-      input[2]:0.000000
-      input[3]:0.000000
+      input[0]:0.919760
+      input[1]:0.342896
+      input[2]:0.211604
+      input[3]:-0.155502
+      input[4]:0.697781
+      input[5]:0.929174
+      input[6]:0.822640
+      input[7]:0.454324
+      input[8]:0.649555
+      input[9]:0.048920
+  Neuron index: 2
+    bias: 0.524256
+    output: 0.525663
+    input weights: 
+      input[0]:-0.561688
+      input[1]:0.628982
+      input[2]:-0.112385
+      input[3]:0.474050
+      input[4]:-0.737888
+      input[5]:0.033859
+      input[6]:-0.428661
+      input[7]:0.748095
+      input[8]:-0.894717
+      input[9]:-0.107754
+  Neuron index: 3
+    bias: -0.973366
+    output: 0.377496
+    input weights: 
+      input[0]:-0.036746
+      input[1]:0.833343
+      input[2]:-0.146789
+      input[3]:-0.349684
+      input[4]:-0.026336
+      input[5]:0.234956
+      input[6]:0.575603
+      input[7]:0.454038
+      input[8]:0.857364
+      input[9]:-0.987213
+  Neuron index: 4
+    bias: 0.314360
+    output: 0.712614
+    input weights: 
+      input[0]:0.586393
+      input[1]:-0.142715
+      input[2]:0.529566
+      input[3]:0.515567
+      input[4]:-0.320076
+      input[5]:-0.016111
+      input[6]:0.682547
+      input[7]:-0.753731
+      input[8]:-0.491856
+      input[9]:-0.879142
+  Neuron index: 5
+    bias: -0.607324
+    output: 0.399729
+    input weights: 
+      input[0]:0.913186
+      input[1]:-0.887667
+      input[2]:0.172214
+      input[3]:-0.052956
+      input[4]:-0.316328
+      input[5]:-0.079691
+      input[6]:0.569754
+      input[7]:0.575919
+      input[8]:-0.053057
+      input[9]:-0.466993
+  Neuron index: 6
+    bias: 0.926687
+    output: 0.765830
+    input weights: 
+      input[0]:0.800154
+      input[1]:0.183323
+      input[2]:-0.099650
+      input[3]:0.552535
+      input[4]:0.276351
+      input[5]:-0.128186
+      input[6]:0.409898
+      input[7]:0.289138
+      input[8]:-0.813827
+      input[9]:0.513717
+  Neuron index: 7
+    bias: -0.336152
+    output: 0.690780
+    input weights: 
+      input[0]:0.715739
+      input[1]:0.546709
+      input[2]:0.861198
+      input[3]:-0.300373
+      input[4]:0.229255
+      input[5]:-0.375107
+      input[6]:0.725197
+      input[7]:0.867539
+      input[8]:0.017569
+      input[9]:0.638382
+  Neuron index: 8
+    bias: 0.979872
+    output: 0.746620
+    input weights: 
+      input[0]:-0.810217
+      input[1]:0.102852
+      input[2]:0.180970
+      input[3]:0.110092
+      input[4]:-0.327395
+      input[5]:0.274314
+      input[6]:-0.425540
+      input[7]:0.723038
+      input[8]:0.201000
+      input[9]:-0.107960
+  Neuron index: 9
+    bias: 0.423786
+    output: 0.378231
+    input weights: 
+      input[0]:-0.381224
+      input[1]:-0.555426
+      input[2]:-0.299864
+      input[3]:-0.991985
+      input[4]:0.854473
+      input[5]:-0.493301
+      input[6]:-0.805812
+      input[7]:0.885615
+      input[8]:0.687973
+      input[9]:-0.572648

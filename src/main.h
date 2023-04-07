@@ -1,0 +1,6 @@
+#define NUM_INPUTS 256
+#define NUM_HIDDEN 32
+#define NUM_OUTPUT 10
+#define NUM_SAMPLES 100
+#define NUM_POINTS 256
+#define MAX_LINE_LENGHT 1024

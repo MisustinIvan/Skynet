@@ -1,5 +1,5 @@
 build:
-	gcc -o ./bin/main ./src/main.c
+	gcc -lm -o ./bin/main ./src/main.c ./src/compute.c ./src/max.c ./src/init.c ./src/logging.c ./src/randrange.c ./src/sigmoid.c ./src/training.c ./src/data.c
 
 run:
 	./bin/main
